@@ -373,6 +373,7 @@ number:
     address: 108
     unit_of_measurement: A
     value_type: U_WORD
+    force_new_range: true
     
   - platform: modbus_controller
     use_write_multiple: true
@@ -406,6 +407,7 @@ number:
     address: 128
     unit_of_measurement: A
     value_type: U_WORD
+    force_new_range: true
 
   - platform: modbus_controller
     use_write_multiple: true
@@ -659,6 +661,7 @@ number:
     max_value: 100
     step: 5
     value_type: U_WORD
+    force_new_range: true
     
   - platform: modbus_controller
     use_write_multiple: true
@@ -671,6 +674,7 @@ number:
     max_value: 100
     step: 5
     value_type: U_WORD
+    force_new_range: true
     
   - platform: modbus_controller
     use_write_multiple: true
@@ -683,6 +687,7 @@ number:
     max_value: 100
     step: 5
     value_type: U_WORD
+    force_new_range: true
     
   - platform: modbus_controller
     use_write_multiple: true
@@ -695,6 +700,7 @@ number:
     max_value: 100
     step: 5
     value_type: U_WORD
+    force_new_range: true
     
   - platform: modbus_controller
     use_write_multiple: true
@@ -707,6 +713,7 @@ number:
     max_value: 100
     step: 5
     value_type: U_WORD
+    force_new_range: true
     
   - platform: modbus_controller
     use_write_multiple: true
@@ -719,6 +726,7 @@ number:
     max_value: 100
     step: 5
     value_type: U_WORD
+    force_new_range: true
 
 sensor:
   - platform: template
