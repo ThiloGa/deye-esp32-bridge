@@ -749,6 +749,7 @@ sensor:
   - platform: template
     name: "${device_type}-PV Total Power"
     unit_of_measurement: "W"
+    device_class: power
     state_class: "measurement"
     accuracy_decimals: 0
     lambda: |-
